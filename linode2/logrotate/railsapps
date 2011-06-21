@@ -1,0 +1,12 @@
+/home/virtual/*/shared/log/*.log {
+    daily
+    rotate 5
+    dateext
+    compress
+    
+    missingok
+    notifempty
+    sharedscripts
+    extension gz
+    copytruncate
+}
